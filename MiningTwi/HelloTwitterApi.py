@@ -54,7 +54,7 @@ def getTrends():
 
 
 def getTweetStatuses():
-    q = "April Fools"
+    q = "#SongsThatTouchMyHeart"
     count = 100
 
     search_results = twitter_api.search.tweets(q=q, count=count)
